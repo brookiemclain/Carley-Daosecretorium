@@ -1,0 +1,5 @@
+import { stripe } from "@/src/lib/stripe";
+
+export async function POST(req) {
+  return Response.json({ ok: true });
+}
